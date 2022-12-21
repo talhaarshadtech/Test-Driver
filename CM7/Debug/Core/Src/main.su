@@ -1,0 +1,8 @@
+../Core/Inc/IDriver.hpp:17:7:constexpr IDriver::IDriver()	16	static
+../Core/Inc/Mcp4716Dac.hpp:15:7:Mcp4716Dac::Mcp4716Dac()	16	static
+../Core/Src/main.cpp:78:5:int main()	40	static
+../Core/Src/main.cpp:179:6:void SystemClock_Config()	120	static
+../Core/Src/main.cpp:239:13:void MX_I2C1_Init()	8	static
+../Core/Src/main.cpp:287:13:void MX_USART3_UART_Init()	8	static
+../Core/Src/main.cpp:335:13:void MX_GPIO_Init()	40	static
+../Core/Src/main.cpp:364:6:void Error_Handler()	4	static,ignoring_inline_asm
