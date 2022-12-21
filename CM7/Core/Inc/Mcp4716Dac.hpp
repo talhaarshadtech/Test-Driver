@@ -23,7 +23,7 @@ public:
     /*
     * getting Analog voltage from dac
     */
-    void GenerateVoltage(uint16_t dacvalue);
+    uint16_t GenerateVoltage(uint16_t dacvalue);
     /*
      * Brief :  This is a Test function to test the program
      */

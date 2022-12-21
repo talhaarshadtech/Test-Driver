@@ -41,11 +41,10 @@ uint16_t Mcp4716Dac::DeInit() {
 /*
  * Brief: Generating Analog voltage
  */
-void Mcp4716Dac::GenerateVoltage(uint16_t dacvalue){
-    Init();
-    Write();
+uint16_t Mcp4716Dac::GenerateVoltage(uint16_t dacvalue){
 
 	m_voltage=(kVoltageReference*dacvalue)/1024;
+	return m_voltage;
 }
 void Mcp4716Dac::toggleLed() {
 	HAL_GPIO_WritePin(GPIOE,GPIO_PIN_1,GPIO_PIN_SET);
